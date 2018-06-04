@@ -1,0 +1,63 @@
+
+              DASD Vision for Windows Installation
+
+
+  For WinXP or Win 7 Users :
+
+  1.  Copy DVWIN.EXE to a Path directory (\WINDOWS\SYSTEM32 is ok)
+
+  2.  Edit .Bat files for your favorite Editor (DVWEdit.BAT), your favorite
+       viewer (DVWView.BAT). and your fav Help file (DVWHelp.BAT).
+       ( Also see DVWUserZ.Bat for the custom option Alt+Z, and see
+         DVWPlus.Bat for custom option + )
+
+      To use defaults (LTFViewr for viewer and EditPadLite for Editor),
+      Download and Install software as noted in each .Bat file.
+
+  3.  Copy edited *.bat files to same directory as step #1
+
+      While testing your setup, Alt+P will attempt to call EditPadLite7 and
+      Alt+L will call the Large Text File Viewer, from the defined PATH. 
+      (***Note: These keys can also be used during normal ops to override
+       the installed .Bat files if needed)
+
+  4.  Unzip archive DVNOTES.ZIP into C:\DOS\DV3\ path if extra Notes
+       files are desired (access with Alt+A|E|K|R|W).
+
+  5. Create Desktop shortcuts to start DVWin.Exe ***with Administrator
+      priviledges*** otherwise the program will just display "Access denied".
+
+  6.  Click the DVWin Icon to start.  If a RAMDisk is available use
+      the optional format "DVWin.Exe d:" where d: = RAMDisk drive.
+      If your fastest drive is NOT C:, also use same syntax where d: =
+      your fastest drive of choice. (used for temp work files only)
+
+
+  For Win 10 users :
+
+  1.  Install/Unzip everything into the C:\DVWin folder including
+      DVWin22.Zip, EditPad Lite Editor (if used) and LTF viewer.
+
+  2.  Perform steps #2, #4 and #5 above ...
+
+  3.  Modify your PATH environment variable and add "C:\DVWin;"
+      (no quotes) to the beginning of same.
+
+  4.  See step #6 above to start DASD Vision ...  
+
+
+  For ALL users:
+
+  Note: optional program arguments to set screen size: C=ccc R=rr 
+           in any combination. Max: 240x100, Min/default: 132x60
+           (i.e. "DVWin.Exe R: C=160" sets drive R: as work, 160x60)
+
+  Note: if DVWUserZ.Bat is changed, the argument Z=x-x can be
+           used to change the legend (x-x up to 13 chars, NO spaces)           
+
+  Note: see Legend at bottom of screen for program Key options
+
+  Note: the latest version of DVWin is always available on my home
+        page at http://cmech.dynip.com/homepage/
+
+      (c) 2018  Ben Ritchey    fido4cmech(at)lusfiber.net
